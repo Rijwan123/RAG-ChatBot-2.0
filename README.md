@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🧠 Modular RAG PDF Chatbot with FastAPI, ChromaDB & Streamlit
 
 ## 🎥 Watch the Tutorial
@@ -64,7 +64,7 @@ Retrieval-Augmented Generation (RAG) enhances LLMs by injecting external knowled
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/snsupratim/RagBot-2.0.git
+git clone https://github.com/Rijwan123/RAG-ChatBot-2.0.git
 cd RagBot-2.0
 ```
 
@@ -79,8 +79,8 @@ pip install -r requirements.txt
 # Set your Groq API Key (.env)
 GROQ_API_KEY="your_key_here"
 
-# Run the FastAPI server
-uvicorn main:app --reload
+# Run the FastAPI server, Run backend:
+uvicorn server.main:app --reload
 ```
 
 ### 3. Setup the Frontend (Streamlit)
@@ -88,6 +88,7 @@ uvicorn main:app --reload
 ```bash
 cd ../client
 pip install -r requirements.txt  # if you use a separate venv for client
+#Run frontend:
 streamlit run app.py
 ```
 
@@ -129,4 +130,4 @@ For questions or suggestions, open an issue or contact at [snsupratim@gmail.com]
 =======
 # RAG-ChatBot-2.0
 A modular RAG app that lets users upload PDFs and chat with an AI assistant for document-based answers. Built with a FastAPI backend, Streamlit frontend, ChromaDB for vector storage, and Groq’s LLaMA3 as the language model
->>>>>>> 636a88c9fd856f3ade758d30188b85f6860b0ab5
+
