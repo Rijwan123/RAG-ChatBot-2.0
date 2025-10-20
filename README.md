@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧠 Modular RAG PDF Chatbot with FastAPI, ChromaDB & Streamlit
 
 ## 🎥 Watch the Tutorial
@@ -125,3 +126,7 @@ For questions or suggestions, open an issue or contact at [snsupratim@gmail.com]
 ---
 
 > Happy Building RAGbots! 🚀
+=======
+# RAG-ChatBot-2.0
+A modular RAG app that lets users upload PDFs and chat with an AI assistant for document-based answers. Built with a FastAPI backend, Streamlit frontend, ChromaDB for vector storage, and Groq’s LLaMA3 as the language model
+>>>>>>> 636a88c9fd856f3ade758d30188b85f6860b0ab5
