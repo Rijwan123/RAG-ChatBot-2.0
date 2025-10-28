@@ -8,6 +8,8 @@ langchain
 langchain-community
 langchain-core
 langchain-groq
+langchain-openai
+
 
 # Vectorstore
 chromadb
